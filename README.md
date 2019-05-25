@@ -2,7 +2,7 @@
 
 # Data Exploration with Python
 
-This repository contains code and datasets to facilitate a workshop on using Python for data exploration, including steps for data acquisition, cleaning and normalization.
+This repository contains code and datasets to facilitate a workshop on using Python for data exploration, including steps for data acquisition, cleaning and normalization. We'll be using a subset of the Washington State Patrol data on traffic stops from the [Stanford Open Policing Project](https://openpolicing.stanford.edu/data/), as the full dataset is 1.5GB and may not play nice with the service we'll be using for the class. Also, as of this writing, GitHub does not by default allow file sizes greater than 100MB.
 
 ## Getting Started
 
@@ -89,10 +89,10 @@ You should then see a lot printed to your screen, starting with `Collecting beau
 
 You have two options here!
 
-1. The class will write code together using `notebook.ipynb` in the `class_notebooks` directory.
-2. You'll also have the option of reading and playing around with complete code in `complete_notebook.ipynb` in the `completed_notebooks` directory.
+1. The class will write code together using `practice-notebook.ipynb`.
+2. You'll also have the option of reading and playing around with complete code in `reference_notebook.ipynb`.
 
-Either way, you'll want to navigate to whichever directory you want to use and run
+Either way, if you're not using `mybinder.org`, you'll want to navigate to whichever directory you want to use and run
 ```bash
 jupyter notebook
 ```
